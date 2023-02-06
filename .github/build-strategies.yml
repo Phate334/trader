@@ -1,0 +1,21 @@
+name: Build Strategies
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * 1-5'
+
+jobs:
+  build-strategies:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python3.10
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.10'
+          cache: 'pipenv'
+      - name: Install dependencies with pipenv
+        run: |
+          pipx install pipenv
+          pipenv install --deploy --dev
