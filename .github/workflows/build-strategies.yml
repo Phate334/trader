@@ -22,7 +22,7 @@ jobs:
       - name: Check opening days
         id: check-opening-day
         run: |
-          echo "OPEN_DAY=${{pipenv run python -c "from trader.openday import is_opening; print(is_opening())"}}" >> $GITHUB_OUTPUT
+          echo "OPEN_DAY="$(pipenv run python -c "from trader.openday import is_opening; print(is_opening())") >> $GITHUB_OUTPUT
       - name: Build strategies
         if: ${{steps.check-opening-day.outputs.OPEN_DAY == 'True'}}
         run: echo "Building strategies..."
