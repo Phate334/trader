@@ -24,5 +24,5 @@ jobs:
         run: |
           pipenv run python -c "from trader.openday import is_opening; print(is_opening())"
       - name: Build strategies
-        if: steps.check-opening-day.outputs.stdout == 'True'
+        if: ${{steps.check-opening-day.outputs.stdout == 'True'}}
         run: echo "Building strategies..."
