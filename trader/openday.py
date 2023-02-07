@@ -22,7 +22,6 @@ def download_holiday():
     lines = res.text.splitlines()[2:]
     result = []
     for line in lines:
-        # 名稱,日期,星期,說明,備註(* : 市場無交易，僅辦理結算交割作業。o : 交易日。)
         _, date, weekday, _, note = line.split(",")
         if weekday == '"六"' or weekday == '"日"' or note == '"o"':
             continue
@@ -32,11 +31,13 @@ def download_holiday():
         json.dump(result, f, ensure_ascii=False)
 
 
-def is_opening() -> bool:
+def is_opening(check_date: datetime = datetime.today()) -> bool:
     """Check if today is opening day"""
     if not HOLIDAY_FILE.exists():
         download_holiday()
     with open(HOLIDAY_FILE, encoding="utf-8") as f:
         holiday = json.load(f)
-    today = datetime.now().strftime("%Y-%m-%d")
-    return today not in holiday
+    # 判斷今天是不是週末
+    return check_date.strftime(
+        "%Y-%m-%d"
+    ) not in holiday and check_date.weekday() not in [5, 6]

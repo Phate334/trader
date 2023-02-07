@@ -19,3 +19,11 @@ jobs:
         run: |
           pipx install pipenv
           pipenv install --deploy --dev
+      - name: Check opening days
+        id: check-opening-day
+        run: |
+          pipenv run python -c "from datetime import datetime; from trader.openday import is_opening; print(is_opening(datetime(2023,1,18)))"
+      - name: Build strategies
+        if: steps.check-opening-day.outputs.stdout == 'True'
+        run: |
+          echo "Building strategies..."
