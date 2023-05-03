@@ -22,7 +22,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.black]
-target-version = ['py39']
+target-version = ['py310']
 line-length = 100
 
 [tool.isort]
