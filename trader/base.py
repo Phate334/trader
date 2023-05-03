@@ -1,11 +1,12 @@
-"""Base module for all strategies."""
-
-
 class BaseStrategy:
     """Base class for all strategies."""
 
-    def __init__(self, *args, **kwargs):
+    def __init__(self, strategy_name):
+        self.strategy_name = strategy_name
+
+    def run_backtest(self):
+        """Run backtest and return position."""
         pass
 
-    def do_backtest(self):
+    def load_position(self):
         pass
