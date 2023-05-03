@@ -38,6 +38,4 @@ def is_opening(check_date: datetime = datetime.today()) -> bool:
     with open(HOLIDAY_FILE, encoding="utf-8") as f:
         holiday = json.load(f)
     # 判斷今天是不是週末
-    return check_date.strftime(
-        "%Y-%m-%d"
-    ) not in holiday and check_date.weekday() not in [5, 6]
+    return check_date.strftime("%Y-%m-%d") not in holiday and check_date.weekday() not in [5, 6]

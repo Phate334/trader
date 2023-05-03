@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "trader"
+version = "0.0.1"
+description = "for trading"
+authors = ["Phate334 <phate334@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fugle-trade = "^0.5.1"
+finlab = "^0.4.2"
+requests = "^2.29.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+isort = "*"
+pylint = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+target-version = ['py39']
+line-length = 100
+
+[tool.isort]
+profile = "black"
+line_length = 100
