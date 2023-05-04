@@ -18,15 +18,15 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: '3.10'
-          cache: 'pipenv'
-      - name: Install dependencies with pipenv
+          cache: 'poetry'
+      - name: Install dependencies with poetry
         run: |
-          pipx install pipenv
-          pipenv install --deploy --dev
+          pipx install poetry
+          poetry install
       - name: Check opening days
         id: check-opening-day
         run: |
-          echo "OPEN_DAY="$(pipenv run python -c "from trader.openday import is_opening; print(is_opening())") >> $GITHUB_OUTPUT
+          echo "OPEN_DAY="$(poetry run python -c "from trader.openday import is_opening; print(is_opening())") >> $GITHUB_OUTPUT
       - name: Build strategies
         if: ${{steps.check-opening-day.outputs.OPEN_DAY == 'True'}}
-        run: pipenv run python run_strategies.py
+        run: poetry run python run_strategies.py
