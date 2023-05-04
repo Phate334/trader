@@ -14,6 +14,9 @@ jobs:
           submodules: true
           fetch-depth: 1
           token: ${{ secrets.ACCESS_TOKEN }}
+      - name: Install poetry
+        run: |
+          pipx install poetry
       - name: Setup Python3.10
         uses: actions/setup-python@v3
         with:
@@ -21,7 +24,6 @@ jobs:
           cache: 'poetry'
       - name: Install dependencies with poetry
         run: |
-          pipx install poetry
           poetry install
       - name: Check opening days
         id: check-opening-day
