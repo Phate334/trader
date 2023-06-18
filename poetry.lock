@@ -437,37 +437,37 @@ graph = ["objgraph (>=1.7.2)"]
 
 [[package]]
 name = "finlab"
-version = "0.4.2"
+version = "0.4.4"
 description = "Analyzing stock has never been easier."
 category = "main"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "finlab-0.4.2-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:074703ac91ed411f7600dcb7b1213559f029b265fe491a1454ec4f35f2d1d8e7"},
-    {file = "finlab-0.4.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f453d2bd10630d1fe530d7a7e4d25066e76bcf2e06100e6dbfc197cc2aae02bb"},
-    {file = "finlab-0.4.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c368e70783974ac54c08d491d12039bafcba97f19d54d1a460aff9feef4afffc"},
-    {file = "finlab-0.4.2-cp310-cp310-win_amd64.whl", hash = "sha256:3d53f2481d9b2467a0b2d2a6d0692f060185e9e7700e7d40e738d49d89e2a060"},
-    {file = "finlab-0.4.2-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:482377100a36252d652c3c61f7ba9d95cdb31f5683eed3f05eefb5d0041e480f"},
-    {file = "finlab-0.4.2-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:009e3d2dcc75fc2b59c352718821135be833e5100a89f9033414995d7f5fec26"},
-    {file = "finlab-0.4.2-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a3e04141392b2cc695a573e810e7364c2698ab3c2d4e3fea4ed2d0a3d50dc397"},
-    {file = "finlab-0.4.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:2c5cd34defcef0d43371b00b778da168f40011cf654bfc3126a3a8cadfb06f27"},
-    {file = "finlab-0.4.2-cp311-cp311-win_amd64.whl", hash = "sha256:50f1b30c270a7b90d35c5cfbb2894c810ff668dd8917181229f1fb29546e7265"},
-    {file = "finlab-0.4.2-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:4bba4f301348e453c40a8481f2e14ab69a3a5f82c7fa91e724ec44176d52e1cd"},
-    {file = "finlab-0.4.2-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:52b6118de8bfe00d1c60371b858b43884d7cfdb6af0126e4580199a8adee8a74"},
-    {file = "finlab-0.4.2-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0c2f754286b39171aa7c2150fa03f2e9e3c3a5bdc39ce86901c007337337b779"},
-    {file = "finlab-0.4.2-cp36-cp36m-win_amd64.whl", hash = "sha256:7f9c3b09db494ad9c72da98e9a14fb5a955b0ceb8e5828ec66edc287de2ca35c"},
-    {file = "finlab-0.4.2-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:180964921842aeb8fb204ca22e9b0b24164c83d805bc1a2c0c93f06921c4edf8"},
-    {file = "finlab-0.4.2-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:8b6b471a1cea44fc83a8513286a27b66c2bbd443cf77635872d393feccc4cd9f"},
-    {file = "finlab-0.4.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f5aea71940af4d8408df10c92e4a984b4364dfd1cca84fbb813b1941d338b857"},
-    {file = "finlab-0.4.2-cp37-cp37m-win_amd64.whl", hash = "sha256:b50c968bb8a8abe580d6492e2a09c85dbb80d5bebd9b0bbd492a9e40b5fa7799"},
-    {file = "finlab-0.4.2-cp38-cp38-macosx_10_9_universal2.whl", hash = "sha256:b0b17e118a6d0ab0fe55de6a6387e48b11ca9fb770bb33f29c4fcd8c33197b18"},
-    {file = "finlab-0.4.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:aefc0d316d9efb3fa5aff056b6417b75a2745d28dd607bcad829ce4705a72545"},
-    {file = "finlab-0.4.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:dc69c052094c54a15fa7a7f685a97061a747e546083fcc12a44b2edb861c0605"},
-    {file = "finlab-0.4.2-cp38-cp38-win_amd64.whl", hash = "sha256:559392b8d735517dd269431d65f83dc71d1fbb8677533aa026b496ba8514d879"},
-    {file = "finlab-0.4.2-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:8502cb705ae14aa7201f509a100645d66d31fed9fc65f6e3800a92a791b29103"},
-    {file = "finlab-0.4.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a06f3ff7129b2437734002ec8304aec09ef74796946a40695a96a05cfaec093a"},
-    {file = "finlab-0.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0e31188866848f127318b9d1f07504db0a597582fe44e5e2d6e69dedf7d8e69d"},
-    {file = "finlab-0.4.2-cp39-cp39-win_amd64.whl", hash = "sha256:9f3810c00cd949680cd77bf9b31e16e7b49cbf8f45220adbb64c24b92e1fc594"},
+    {file = "finlab-0.4.4-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:2fb964e51ee5b4eab604eef475a8551a82b3e1db030586800d801a746aaadf6c"},
+    {file = "finlab-0.4.4-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:fb301bbf2613621fd3453675e658e574277be0975f30316dbec3ec705fae65fd"},
+    {file = "finlab-0.4.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b30378643ad3588928d53f1fa167b60e4321aea31f4f5e58501ee11e09818a46"},
+    {file = "finlab-0.4.4-cp310-cp310-win_amd64.whl", hash = "sha256:7faefa44c8ba205b31d63f9ddf607e81a5fa613122ff80f63e7f484fc0c50e0b"},
+    {file = "finlab-0.4.4-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:aec4b5c464f3eb2e6498e2024f418431675d95a47e97612264846849b5a907a3"},
+    {file = "finlab-0.4.4-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:a23cf376839047ed7bf38907adfcc1d9988af9e0f2847106d1b34c30d4dd7ce2"},
+    {file = "finlab-0.4.4-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:2179fb1147beb0b79b5fed7c242592c8196fb931f9ca468c503831bb5e7c468b"},
+    {file = "finlab-0.4.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5eca1bd09b1522e0e16cb360315c42b84e947d7233bd090c32dd89fe59d2e61b"},
+    {file = "finlab-0.4.4-cp311-cp311-win_amd64.whl", hash = "sha256:b28efaa7c1823b993e261a53db2a4d5134c9ee1734f83b7ff7d6b01019c7bf02"},
+    {file = "finlab-0.4.4-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:1ff96173534ef2529c15c5fec6366f0f232eca3b4c8827d99ff9cc5d50af3ef9"},
+    {file = "finlab-0.4.4-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0229d14183ddf9e694029aee37ec348726c48268eaa0443d3fa0e21f901d2e0e"},
+    {file = "finlab-0.4.4-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b0e9ae7344c184dfff45124ceba3237bd2bc8a28fd9c47a296819a207224b3ba"},
+    {file = "finlab-0.4.4-cp36-cp36m-win_amd64.whl", hash = "sha256:3fd2482010e9fa70ff08615695764fad2cc528d96621c7b32c296b390a414396"},
+    {file = "finlab-0.4.4-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:60176539b9ac8f31302e4618d347ce2886164a5499ee7ad0a0244fd3b450db4b"},
+    {file = "finlab-0.4.4-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:d8e4f9b8476c17d76bdc92813585d6ccf238ca649d555e66a021e0aba2c3a4f8"},
+    {file = "finlab-0.4.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:139dffa186b3b1791e05323ce190be751c217d6634ab72c606489e47cfce8e82"},
+    {file = "finlab-0.4.4-cp37-cp37m-win_amd64.whl", hash = "sha256:be7545713fe5f28dad9233edbba6ed59956316fb2f2a33f4b8c6a83d8b92ff34"},
+    {file = "finlab-0.4.4-cp38-cp38-macosx_10_9_universal2.whl", hash = "sha256:9290f5853c5075a84f3141758d30925674c7e57f6be082c7ba6ab9b97d7b5b7d"},
+    {file = "finlab-0.4.4-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:85ca4e55b7f46223d828539140526a47416d94023c564265f9dee3529582611a"},
+    {file = "finlab-0.4.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6908700039e9237f7c661131f938b3c6f55b7253e1ce2c155894c369f2dae981"},
+    {file = "finlab-0.4.4-cp38-cp38-win_amd64.whl", hash = "sha256:56acf7f740b68aa433467129c6fbd453bd025df8653144c3c3f8394979f670f0"},
+    {file = "finlab-0.4.4-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:0bd05645ce4da343d80856b15baff817a583dce2da8fc0b7b8fc7d918addd640"},
+    {file = "finlab-0.4.4-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:6337df2b463e56060aea2925ba87652c49a76e534bda61a0b31210fb00ce6c7b"},
+    {file = "finlab-0.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9f9b519977d59a169a8bf2c16e4e94e36ccb691fe18151828dbda3df4161706b"},
+    {file = "finlab-0.4.4-cp39-cp39-win_amd64.whl", hash = "sha256:ac2901896eed1b197499a66d193c0aa16df1367cf1f66f1e3140b7e5c1156829"},
 ]
 
 [package.dependencies]
@@ -475,7 +475,7 @@ Cython = "*"
 jinja2 = "*"
 lz4 = "*"
 numpy = ">=1.21.6"
-pandas = ">=1.0.3"
+pandas = ">=1.5.3"
 pyarrow = ">=2.0.0"
 requests = "*"
 tqdm = "*"
@@ -1053,6 +1053,60 @@ files = [
 ]
 
 [[package]]
+name = "pydantic"
+version = "1.10.9"
+description = "Data validation and settings management using python type hints"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "pydantic-1.10.9-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:e692dec4a40bfb40ca530e07805b1208c1de071a18d26af4a2a0d79015b352ca"},
+    {file = "pydantic-1.10.9-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:3c52eb595db83e189419bf337b59154bdcca642ee4b2a09e5d7797e41ace783f"},
+    {file = "pydantic-1.10.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:939328fd539b8d0edf244327398a667b6b140afd3bf7e347cf9813c736211896"},
+    {file = "pydantic-1.10.9-cp310-cp310-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:b48d3d634bca23b172f47f2335c617d3fcb4b3ba18481c96b7943a4c634f5c8d"},
+    {file = "pydantic-1.10.9-cp310-cp310-musllinux_1_1_i686.whl", hash = "sha256:f0b7628fb8efe60fe66fd4adadd7ad2304014770cdc1f4934db41fe46cc8825f"},
+    {file = "pydantic-1.10.9-cp310-cp310-musllinux_1_1_x86_64.whl", hash = "sha256:e1aa5c2410769ca28aa9a7841b80d9d9a1c5f223928ca8bec7e7c9a34d26b1d4"},
+    {file = "pydantic-1.10.9-cp310-cp310-win_amd64.whl", hash = "sha256:eec39224b2b2e861259d6f3c8b6290d4e0fbdce147adb797484a42278a1a486f"},
+    {file = "pydantic-1.10.9-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:d111a21bbbfd85c17248130deac02bbd9b5e20b303338e0dbe0faa78330e37e0"},
+    {file = "pydantic-1.10.9-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:2e9aec8627a1a6823fc62fb96480abe3eb10168fd0d859ee3d3b395105ae19a7"},
+    {file = "pydantic-1.10.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:07293ab08e7b4d3c9d7de4949a0ea571f11e4557d19ea24dd3ae0c524c0c334d"},
+    {file = "pydantic-1.10.9-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:7ee829b86ce984261d99ff2fd6e88f2230068d96c2a582f29583ed602ef3fc2c"},
+    {file = "pydantic-1.10.9-cp311-cp311-musllinux_1_1_i686.whl", hash = "sha256:4b466a23009ff5cdd7076eb56aca537c745ca491293cc38e72bf1e0e00de5b91"},
+    {file = "pydantic-1.10.9-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:7847ca62e581e6088d9000f3c497267868ca2fa89432714e21a4fb33a04d52e8"},
+    {file = "pydantic-1.10.9-cp311-cp311-win_amd64.whl", hash = "sha256:7845b31959468bc5b78d7b95ec52fe5be32b55d0d09983a877cca6aedc51068f"},
+    {file = "pydantic-1.10.9-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:517a681919bf880ce1dac7e5bc0c3af1e58ba118fd774da2ffcd93c5f96eaece"},
+    {file = "pydantic-1.10.9-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:67195274fd27780f15c4c372f4ba9a5c02dad6d50647b917b6a92bf00b3d301a"},
+    {file = "pydantic-1.10.9-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:2196c06484da2b3fded1ab6dbe182bdabeb09f6318b7fdc412609ee2b564c49a"},
+    {file = "pydantic-1.10.9-cp37-cp37m-musllinux_1_1_i686.whl", hash = "sha256:6257bb45ad78abacda13f15bde5886efd6bf549dd71085e64b8dcf9919c38b60"},
+    {file = "pydantic-1.10.9-cp37-cp37m-musllinux_1_1_x86_64.whl", hash = "sha256:3283b574b01e8dbc982080d8287c968489d25329a463b29a90d4157de4f2baaf"},
+    {file = "pydantic-1.10.9-cp37-cp37m-win_amd64.whl", hash = "sha256:5f8bbaf4013b9a50e8100333cc4e3fa2f81214033e05ac5aa44fa24a98670a29"},
+    {file = "pydantic-1.10.9-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:b9cd67fb763248cbe38f0593cd8611bfe4b8ad82acb3bdf2b0898c23415a1f82"},
+    {file = "pydantic-1.10.9-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:f50e1764ce9353be67267e7fd0da08349397c7db17a562ad036aa7c8f4adfdb6"},
+    {file = "pydantic-1.10.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:73ef93e5e1d3c8e83f1ff2e7fdd026d9e063c7e089394869a6e2985696693766"},
+    {file = "pydantic-1.10.9-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:128d9453d92e6e81e881dd7e2484e08d8b164da5507f62d06ceecf84bf2e21d3"},
+    {file = "pydantic-1.10.9-cp38-cp38-musllinux_1_1_i686.whl", hash = "sha256:ad428e92ab68798d9326bb3e5515bc927444a3d71a93b4a2ca02a8a5d795c572"},
+    {file = "pydantic-1.10.9-cp38-cp38-musllinux_1_1_x86_64.whl", hash = "sha256:fab81a92f42d6d525dd47ced310b0c3e10c416bbfae5d59523e63ea22f82b31e"},
+    {file = "pydantic-1.10.9-cp38-cp38-win_amd64.whl", hash = "sha256:963671eda0b6ba6926d8fc759e3e10335e1dc1b71ff2a43ed2efd6996634dafb"},
+    {file = "pydantic-1.10.9-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:970b1bdc6243ef663ba5c7e36ac9ab1f2bfecb8ad297c9824b542d41a750b298"},
+    {file = "pydantic-1.10.9-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:7e1d5290044f620f80cf1c969c542a5468f3656de47b41aa78100c5baa2b8276"},
+    {file = "pydantic-1.10.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:83fcff3c7df7adff880622a98022626f4f6dbce6639a88a15a3ce0f96466cb60"},
+    {file = "pydantic-1.10.9-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:0da48717dc9495d3a8f215e0d012599db6b8092db02acac5e0d58a65248ec5bc"},
+    {file = "pydantic-1.10.9-cp39-cp39-musllinux_1_1_i686.whl", hash = "sha256:0a2aabdc73c2a5960e87c3ffebca6ccde88665616d1fd6d3db3178ef427b267a"},
+    {file = "pydantic-1.10.9-cp39-cp39-musllinux_1_1_x86_64.whl", hash = "sha256:9863b9420d99dfa9c064042304868e8ba08e89081428a1c471858aa2af6f57c4"},
+    {file = "pydantic-1.10.9-cp39-cp39-win_amd64.whl", hash = "sha256:e7c9900b43ac14110efa977be3da28931ffc74c27e96ee89fbcaaf0b0fe338e1"},
+    {file = "pydantic-1.10.9-py3-none-any.whl", hash = "sha256:6cafde02f6699ce4ff643417d1a9223716ec25e228ddc3b436fe7e2d25a1f305"},
+    {file = "pydantic-1.10.9.tar.gz", hash = "sha256:95c70da2cd3b6ddf3b9645ecaa8d98f3d80c606624b6d245558d202cd23ea3be"},
+]
+
+[package.dependencies]
+python-dotenv = {version = ">=0.10.4", optional = true, markers = "extra == \"dotenv\""}
+typing-extensions = ">=4.2.0"
+
+[package.extras]
+dotenv = ["python-dotenv (>=0.10.4)"]
+email = ["email-validator (>=1.0.3)"]
+
+[[package]]
 name = "pylint"
 version = "2.17.3"
 description = "python code static checker"
@@ -1097,6 +1151,21 @@ files = [
 six = ">=1.5"
 
 [[package]]
+name = "python-dotenv"
+version = "1.0.0"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "python-dotenv-1.0.0.tar.gz", hash = "sha256:a8df96034aae6d2d50a4ebe8216326c61c3eb64836776504fcca410e5937a3ba"},
+    {file = "python_dotenv-1.0.0-py3-none-any.whl", hash = "sha256:f5971a9226b701070a4bf2c38c89e5a3f0d64de8debda981d1db98583009122a"},
+]
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
+[[package]]
 name = "pytz"
 version = "2023.3"
 description = "World timezone definitions, modern and historical"
@@ -1122,21 +1191,21 @@ files = [
 
 [[package]]
 name = "requests"
-version = "2.29.0"
+version = "2.31.0"
 description = "Python HTTP for Humans."
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "requests-2.29.0-py3-none-any.whl", hash = "sha256:e8f3c9be120d3333921d213eef078af392fba3933ab7ed2d1cba3b56f2568c3b"},
-    {file = "requests-2.29.0.tar.gz", hash = "sha256:f2e34a75f4749019bb0e3effb66683630e4ffeaf75819fb51bebef1bf5aef059"},
+    {file = "requests-2.31.0-py3-none-any.whl", hash = "sha256:58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f"},
+    {file = "requests-2.31.0.tar.gz", hash = "sha256:942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"},
 ]
 
 [package.dependencies]
 certifi = ">=2017.4.17"
 charset-normalizer = ">=2,<4"
 idna = ">=2.5,<4"
-urllib3 = ">=1.21.1,<1.27"
+urllib3 = ">=1.21.1,<3"
 
 [package.extras]
 socks = ["PySocks (>=1.5.6,!=1.5.7)"]
@@ -1219,7 +1288,7 @@ telegram = ["requests"]
 name = "typing-extensions"
 version = "4.5.0"
 description = "Backported and Experimental Type Hints for Python 3.7+"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
@@ -1376,4 +1445,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "5d19b7770b0941596862a67de662c188a9244497af2b918f37e91d9eb53751ff"
+content-hash = "45955eb4fdc45f08be9eaf674297fb43c6f908f2a18093ba8829487e33ab61b5"

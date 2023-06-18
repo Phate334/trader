@@ -9,8 +9,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 fugle-trade = "^0.5.1"
-finlab = "^0.4.2"
-requests = "^2.29.0"
+finlab = "^0.4.4"
+requests = "^2.31.0"
+pydantic = {extras = ["dotenv"], version = "^1.10.9"}
 
 [tool.poetry.group.dev.dependencies]
 black = "*"
